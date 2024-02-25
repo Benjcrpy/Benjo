@@ -14,6 +14,7 @@ module.exports = {
         primary: ["Concert One"],
         secondary: ["Ubuntu Mono"],
         thirdcary: ["Kodchasan"],
+        fourth: ["Tenali Ramakrishna"],
       },
     },
   },

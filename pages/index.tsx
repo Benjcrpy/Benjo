@@ -4,6 +4,8 @@ import React from 'react'
 import MobileNav from '@/components/MobileNav';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
+import Service from '@/components/Service';
+import Skills from '@/components/Skills';
 
 
 const HomePage = () => {
@@ -22,6 +24,8 @@ const HomePage = () => {
         <Hero/>
         <div className='relative z-[30]'>
           <About/>
+          <Service/>
+          <Skills/>
         </div>
       </div>
     </div>

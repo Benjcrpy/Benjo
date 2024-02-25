@@ -10,8 +10,8 @@ const Skills = () => {
       </h1>
       <div className='w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center'>
         <div>
-            <SkillsItem title="NFT Developer" year="2021-2022"/>
-            <SkillsItem title="Web Developer" year="2021-2023"/>
+            <SkillsItem title="CIT Senior High School" year="2018-2019"/>
+            <SkillsItem title="NFT-Developer" year="2021-2022"/>
             <SkillsLanguage
             skill1="React Js"
             skill2="HTML"
@@ -22,8 +22,8 @@ const Skills = () => {
             />
         </div>
         <div>
-        <SkillsItem title="NFT Developer" year="2021-2022"/>
-            <SkillsItem title="Web Developer" year="2021-2023"/>
+        <SkillsItem title="Cybersecurity College Year" year="2021-2024"/>
+            <SkillsItem title="Web Developer" year="2021-2024"/>
             <SkillsLanguage
             skill1="CSS"
             skill2="JavaScript"

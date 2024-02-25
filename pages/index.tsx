@@ -18,9 +18,11 @@ const HomePage = () => {
         {/* navigation */}
         <MobileNav nav={nav} closeNav={closeNav}/>
         <Nav openNav={openNav}/>  
-        {/* hero */}
+        {/* Hero */}
         <Hero/>
-        <About/>
+        <div className='relative z-[30]'>
+          <About/>
+        </div>
       </div>
     </div>
  )

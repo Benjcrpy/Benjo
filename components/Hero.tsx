@@ -11,23 +11,23 @@ const CV_FILE_URL = 'http://localhost:3000/CV-Agapay.pdf'
 
 const Hero = () => {
 
-  const downloadFileAtURL = (url: string) =>{
-    const fileName = url.split("/").pop();
-    const aTag = document.createElement("a");
-    aTag.href=url;
-    aTag.setAttribute('download', fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-    }
-
+    const downloadFileAtURL = (url: string) =>{
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href=url;
+        aTag.setAttribute('download', fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+        }
+    
 
 
   return (
     <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
-        <Particle/>
-        <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
-          <div>
+      <Particle/>
+      <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
+      <div>
             <h1 className='text-[35px] md:text-[50px] text-white font-bold font-secondary'> HI, I'M <span className='text-red-800'> Anthony </span></h1>
              <TextEffect/>
             <p className='mt-[2rem] text-[20px] text-slate-200 font-secondary'>
@@ -51,7 +51,7 @@ const Hero = () => {
           <div className='w-[500px] hidden bg-red-500 relative lg:flex items-center rounded-full h-[500px]'>
             <Image src="/images/1248-dead.png" alt="user" layout="fill" className="object-cover rounded-full"/>
           </div>
-        </div>
+      </div>
     </div>
   )
 }

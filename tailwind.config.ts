@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         primary: ["Concert One"],
         secondary: ["Ubuntu Mono"],
+        thirdcary: ["Kodchasan"],
       },
     },
   },

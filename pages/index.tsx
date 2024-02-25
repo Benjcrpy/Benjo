@@ -3,6 +3,7 @@ import { useState } from 'react'
 import React from 'react'
 import MobileNav from '@/components/MobileNav';
 import Hero from '@/components/Hero';
+import About from '@/components/About';
 
 
 const HomePage = () => {
@@ -16,9 +17,10 @@ const HomePage = () => {
       <div>
         {/* navigation */}
         <MobileNav nav={nav} closeNav={closeNav}/>
-        <Nav openNav={openNav}/>
+        <Nav openNav={openNav}/>  
         {/* hero */}
         <Hero/>
+        <About/>
       </div>
     </div>
  )

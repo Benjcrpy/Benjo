@@ -42,7 +42,7 @@ const Hero = () => {
                 <p> Download CV </p>
                 <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black'/>
               </button>
-              <Link href="https://github.com/Benjcrpy" className='flex items-center space-x-2'>
+              <Link href="https://github.com/Benjcrpy" className='flex items-center space-x-2 py-[1rem]'>
               <VscGithub className='w-[4rem] h-[4rem] hover:text-red-600 transition-all duration-200 text-cyan-400' />
               <p className='text-[20px] font-semibold text-white'> GitHub </p>
               </Link>

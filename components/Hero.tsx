@@ -24,7 +24,7 @@ const Hero = () => {
 
 
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[5vh] bg-cover bg-center">
+    <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[5vh] bg-cover bg-center" id='Home'>
       <Particle/>
       <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
       <div>

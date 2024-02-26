@@ -3,7 +3,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <div className='bg-black pt-[4rem] md:pt-[8rem] pb-[5rem]'>
+    <div className='bg-black pt-[4rem] md:pt-[8rem] pb-[5rem]' id='Service'>
       <p className='heading'>
         My <span className='text-red-800'> Service Sir/Mam!</span>
       </p>

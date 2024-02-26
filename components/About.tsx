@@ -19,7 +19,7 @@ const About = () => {
 
 
   return (
-    <div className='bg-slate-900 pb-[3rem] pt-[4rem] md:pt-[8rem]'>
+    <div className='bg-slate-900 pb-[3rem] pt-[4rem] md:pt-[8rem]' id='About'>
       <div className='grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center'>
         <div>
             <h1 className='text-[40px] font-bold uppercase text-red-800 mb-[1rem] font-secondary'>

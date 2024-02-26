@@ -6,6 +6,8 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Service from '@/components/Service';
 import Skills from '@/components/Skills';
+import Project from '@/components/Project';
+import Footer from '@/components/Footer';
 
 
 const HomePage = () => {
@@ -26,6 +28,8 @@ const HomePage = () => {
           <About/>
           <Service/>
           <Skills/>
+          <Project/>
+          <Footer/>
         </div>
       </div>
     </div>

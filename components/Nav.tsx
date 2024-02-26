@@ -1,5 +1,6 @@
 import { Bars3Icon } from '@heroicons/react/20/solid'
 import React from 'react'
+import { Link } from 'react-scroll/modules'
 
 interface Props {
   openNav: () => void;
@@ -13,12 +14,11 @@ const Nav = ({openNav}:Props) => {
                BENJ
                <span className='text-yellow-300'>DEV</span> 
         </h1>
-        <div className='nav-link font-thirdcary'>Home</div>
-        <div className='nav-link font-thirdcary'>Services</div>
-        <div className='nav-link font-thirdcary'>About</div>
-        <div className='nav-link font-thirdcary'>Project</div>
-        <div className='nav-link font-thirdcary'>Blog</div>
-        <div className='nav-link font-thirdcary'>Contact</div>
+        <Link activeClass='active' to="Home" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>Home</Link>
+        <Link activeClass='active' to="About" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>About</Link>
+        <Link activeClass='active' to="Service" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>Service</Link>
+        <Link activeClass='active' to="Project" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>Project</Link>
+        <Link activeClass='active' to="Contact" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>Contact</Link>
         <div onClick={openNav}>
           <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-red-600'/>
         </div>

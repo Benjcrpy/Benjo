@@ -1,6 +1,6 @@
 import React from 'react'
 import { XMarkIcon } from '@heroicons/react/20/solid'
-
+import { Link } from 'react-scroll/modules'
 
 interface Props {
     nav:boolean;
@@ -17,12 +17,11 @@ const MobileNav = ({nav, closeNav}:Props) => {
     >
     
     <div className='w-[100vw] h-[100vh] flex flex-col items-center justify-center'>
-      <div className='nav-link-mobile'>Home</div>
-      <div className='nav-link-mobile'>Services</div>
-      <div className='nav-link-mobile'>About</div>
-      <div className='nav-link-mobile'>Project</div>
-      <div className='nav-link-mobile'>Blog</div>
-      <div className='nav-link-mobile'>Contact</div>
+      <Link onClick={closeNav} activeClass='active' to="Home" spy={true} smooth={true} offset={50} duration={500} className='nav-link-mobile'>Home</Link>
+      <Link onClick={closeNav} activeClass='active' to="About" spy={true} smooth={true} offset={50} duration={500} className='nav-link-mobile'>About</Link>
+      <Link onClick={closeNav} activeClass='active' to="Service" spy={true} smooth={true} offset={50} duration={500} className='nav-link-mobile'>Service</Link>
+      <Link onClick={closeNav} activeClass='active' to="Projects" spy={true} smooth={true} offset={50} duration={500} className='nav-link-mobile'>Project</Link>
+      <Link onClick={closeNav} activeClass='active' to="Contact" spy={true} smooth={true} offset={50} duration={500} className='nav-link-mobile'>Contact</Link>
      </div>    
      <div 
         onClick={closeNav}

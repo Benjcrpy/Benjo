@@ -14,10 +14,8 @@ const Service = () => {
                 Web Development
             </h1>
             <p className='font-fourth text-[15px] text-white'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Molestiae alias magnam placeat cumque qui maiores dolores. 
-                Corporis fuga inventore, praesentium sunt vitae doloribus 
-                ducimus illum est doloremque minima, velit ut!
+                I'm using "React JS", "Next JS", "CSS", "Tailwind CSS" and a lot of 
+                tools for my web development project.
             </p>
         </div>
         <div className='bg-orange-500 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]'>
@@ -26,10 +24,8 @@ const Service = () => {
                 Blockchain
             </h1>
             <p className='font-fourth text-[15px] text-white'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Molestiae alias magnam placeat cumque qui maiores dolores. 
-                Corporis fuga inventore, praesentium sunt vitae doloribus 
-                ducimus illum est doloremque minima, velit ut!
+                Solana network my favorite network for my blockchain development,
+                i can do also BSC Network, Ethereum Network.
             </p>
         </div>
         <div className='bg-blue-500 hover:scale-110 transform transition-all duration-300 hover:rotate-6 uppercase font-semibold text-center p-[2rem]'>
@@ -38,10 +34,8 @@ const Service = () => {
                 NFT Developer
             </h1>
             <p className='font-fourth text-[15px] text-white'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Molestiae alias magnam placeat cumque qui maiores dolores. 
-                Corporis fuga inventore, praesentium sunt vitae doloribus 
-                ducimus illum est doloremque minima, velit ut!
+                I was built NFT Project before for my team it such as successfully launch.
+                five project i built before. Solana network, BSC network, ADA network, ETH network.
             </p>
         </div>
       </div>

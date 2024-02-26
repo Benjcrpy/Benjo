@@ -1,6 +1,6 @@
 import React from 'react'
 import { XMarkIcon } from '@heroicons/react/20/solid'
-import { Link } from 'react-scroll/modules'
+import { Link } from 'react-scroll'
 
 interface Props {
     nav:boolean;

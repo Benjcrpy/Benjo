@@ -22,10 +22,9 @@ const About = () => {
             <div className='mb-[3rem] flex items-center md:space-x-10'>
               <span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
               <p className='text-[19px] text-slate-100 w-[80%] font-thirdcary'>
-                Am Anthony i was taking currently cybersecurity course in our university.
-                I'm 4th year college student and im graduating this course by aug 2024,
-                before that im also take CIT course and attended Seminar, Webinar for my courses.
-                 You can download my CV below!
+              I’m Anthony currently taking Cybersecurity course in our university. I'm on 4th year and will be graduating 
+              this year on aug 2024, before thatI also take CIT course and attended Seminar, Webinar for 
+              my courses. You can download my CV below!
               </p>
             </div>
             <a download href='./CV-Agapay.pdf'>

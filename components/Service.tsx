@@ -24,8 +24,8 @@ const Service = () => {
                 Blockchain
             </h1>
             <p className='font-fourth text-[15px] text-white'>
-                Solana network my favorite network for my blockchain development,
-                i can do also BSC Network, Ethereum Network.
+            SOLANA NETWORK IS MY FAVORITE NETWORK FOR MY BLOCKCHAIN DEVELOPMENT, 
+            I CAN ALSO DO BSC NETWORK, ETHEREUM NETWORK.
             </p>
         </div>
         <div className='bg-blue-500 hover:scale-110 transform transition-all duration-300 hover:rotate-6 uppercase font-semibold text-center p-[2rem]'>
@@ -34,8 +34,8 @@ const Service = () => {
                 NFT Developer
             </h1>
             <p className='font-fourth text-[15px] text-white'>
-                I was built NFT Project before for my team it such as successfully launch.
-                five project i built before. Solana network, BSC network, ADA network, ETH network.
+            I BUILT NFT PROJECT BEFORE FOR MY TEAM AND IT WAS  SUCCESSFULL LAUNCH. 
+            THE FIVE PROJECT I BUILT BEFORE ARE SOLANA NETWORK, BSC NETWORK, ADA NETWORK, ETH NETWORK.
             </p>
         </div>
       </div>

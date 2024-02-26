@@ -22,11 +22,11 @@ const Hero = () => {
             <h1 className='text-[35px] md:text-[50px] text-white font-bold font-secondary'> HI, I'M <span className='text-red-800'> Anthony </span></h1>
              <TextEffect/>
             <p className='mt-[2rem] text-[20px] text-slate-200 font-secondary'>
-              Hi am Anthony, Benj, Benjo Web developer and NFT Developer, 
-              i worked with my team before and i was working
-              as a fullstack developer before and i joined in 
-              blockchain development like NFT Art, NFT utilities 
-              and Token Creator.
+            Hi! I’am Anthony or you can call me Benj, Benjo a Web d
+            eveloper and NFT Developer. 
+            I worked with my team before as a fullstack developer. 
+            I also joined blockchain development like NFT Art, 
+            NFT utilities and Token Creator.
             </p>
             <div className="mt-[2rem] flex-col space-y-6 sm:flex sm:flex-row items-center sm:space-x-6">
             <a download href='./CV-Agapay.pdf'>

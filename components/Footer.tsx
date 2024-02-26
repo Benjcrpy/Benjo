@@ -61,15 +61,15 @@ const Footer = () => {
          @{new Date().getFullYear()} Benjo. All right reseved.
       </div>
       <div className='flex items-center  space-x-20'>
-      <a href="https://www.facebook.com/profile.php?id=61552102599704&mibextid=ZbWKwL" className='p-2 cursor-pointer text-white inline-flex items-center rounded-full bg-gray-700 mx-1.5 text-xl 
+      <a href="https://www.facebook.com/anthony.agapay.3/" className='p-2 cursor-pointer text-white inline-flex items-center rounded-full bg-gray-700 mx-1.5 text-xl 
    hover:text-gray-100 hover:bg-teal-500 duration-100'>
               <TiSocialFacebook />
       </a>
-      <a href="https://twitter.com/HappytreeF19101" className='p-2 cursor-pointer text-white inline-flex items-center rounded-full bg-gray-700 mx-1.5 text-xl 
+      <a href="https://twitter.com/Benj_nft" className='p-2 cursor-pointer text-white inline-flex items-center rounded-full bg-gray-700 mx-1.5 text-xl 
    hover:text-gray-100 hover:bg-teal-500 duration-100'>
               <TiSocialTwitter />
       </a>
-      <a href="https://www.instagram.com/sarigamioyama/" className='p-2 cursor-pointer text-white inline-flex items-center rounded-full bg-gray-700 mx-1.5 text-xl 
+      <a href="https://www.instagram.com/isthat_benjo/" className='p-2 cursor-pointer text-white inline-flex items-center rounded-full bg-gray-700 mx-1.5 text-xl 
    hover:text-gray-100 hover:bg-teal-500 duration-100'>
               <TiSocialInstagram />
       </a>

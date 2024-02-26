@@ -40,7 +40,7 @@ const Contact = () => {
 
 
   return (
-    <div className='bg-slate-900 pt-[4rem] md:pt-[8rem] pb-[5rem]'>
+    <div className='bg-slate-900 pt-[4rem] md:pt-[8rem] pb-[5rem]' id='contact'>
         <h1 className='heading font-fourth'>Contact<span className='text-yellow-700'> ME! </span> 
         </h1>
         <form onSubmit={handleSubmit}>

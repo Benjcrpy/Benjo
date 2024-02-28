@@ -14,11 +14,11 @@ const Nav = ({openNav}:Props) => {
                BENJ
                <span className='text-yellow-300'>DEV</span> 
         </h1>
-        <Link activeClass='active' to="Home" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>Home</Link>
-        <Link activeClass='active' to="About" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>About</Link>
-        <Link activeClass='active' to="Service" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>Service</Link>
-        <Link activeClass='active' to="Project" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>Project</Link>
-        <Link activeClass='active' to="Contact" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-thirdcary'>Contact</Link>
+        <Link activeClass='active' to="Home" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-primary'>Home</Link>
+        <Link activeClass='active' to="About" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-primary'>About</Link>
+        <Link activeClass='active' to="Service" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-primary'>Service</Link>
+        <Link activeClass='active' to="Project" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-primary'>Project</Link>
+        <Link activeClass='active' to="Contact" spy={true} smooth={true} offset={50} duration={500} className='nav-link font-primary'>Contact</Link>
         <div onClick={openNav}>
           <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-red-600'/>
         </div>
